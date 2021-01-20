@@ -7,11 +7,11 @@ En su servidor de base de datos locales Mysql crear la base de datos node20_mysq
 
 # 2)Backend en node
 
-Una vez descargada la carpeta, c agregar el archivo .env en la carpeta Nodejs enviado por mail y luego en la terminal de la carpeta correr npm install y luego ejecutar npm run dev y ya estara escuchando el servidor en el puerto 3050.
+Una vez descargada la carpeta,  agregar el archivo .env en la carpeta Nodejs enviado por mail y luego en la terminal de la carpeta correr npm install y luego ejecutar npm run dev y ya estara escuchando el servidor en el puerto 3050.
 
 (el archivo .env nescesario para las credenciales del servidor fue enviado por mail.)
 
-Una vez que se encuntra corriendo ejecutar la request  POST localhost:3050/Table/createtableregister  por Postman o algun otra herramienta de testing de api rest. para crear la tabla principal.
+Una vez que se encuntra corriendo ejecutar la request  POST localhost:3050/Table/createtableregister  por Postman o algun otra herramienta de testing de api rest. para crear la tabla principal. O importar el archivo de base de datos adjunto en su servidor local mysql.
 
 
 
