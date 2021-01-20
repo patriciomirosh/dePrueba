@@ -5,7 +5,7 @@
 En su servidor de base de datos locales Mysql crear la base de datos node20_mysql.
 
 
-# 2)Backend en node
+# 2)Backend en Node
 
 Una vez descargada la carpeta,  agregar el archivo .env en la carpeta Nodejs enviado por mail y luego en la terminal de la carpeta correr npm install y luego ejecutar npm run dev y ya estara escuchando el servidor en el puerto 3050.
 
