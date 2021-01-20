@@ -35,6 +35,7 @@ export default class ContactForm extends Component {
     onSubmit = (e) =>{
         e.preventDefault()
         this.sendEmail(this.state.name,this.state.UserEmail,this.state.subject,this.state.message,this.props.email,this.props.Username1)
+        this.setState({name:""})
        
     }
     
@@ -61,7 +62,7 @@ export default class ContactForm extends Component {
                        
                         <div className="col-md-6">
                             <div className="md-form mb-0">
-                                <input type="text" id="name" name="name" value={this.state.name}  className="form-control" onChange={this.handleInputChangeNormal.bind(this)} />
+                                <input type="text" id="name" name="name"  required value={this.state.name}  className="form-control" onChange={this.handleInputChangeNormal.bind(this)} />
                                 <label htmlFor="name"  >your name</label>
                             </div>
                         </div>
@@ -70,7 +71,7 @@ export default class ContactForm extends Component {
                        
                         <div className="col-md-6">
                             <div className="md-form mb-0">
-                                <input type="text" id="email" name="email"  value={this.state.email} className="form-control"  onChange={this.handleInputChangeNormal.bind(this)}/>
+                                <input type="text" id="email" name="email"  required value={this.state.email} className="form-control"  onChange={this.handleInputChangeNormal.bind(this)}/>
                                 <label htmlFor="email" className="">Your email</label>
                             </div>
                         </div>
@@ -83,7 +84,7 @@ export default class ContactForm extends Component {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="md-form mb-0">
-                                <input type="text" id="subject" name="subject" value={this.state.subject} className="form-control" onChange={this.handleInputChangeNormal.bind(this)}/>
+                                <input type="text" id="subject" name="subject"  required value={this.state.subject} className="form-control" onChange={this.handleInputChangeNormal.bind(this)}/>
                                 <label htmlFor="subject" className="">Subject</label>
                             </div>
                         </div>
@@ -97,7 +98,7 @@ export default class ContactForm extends Component {
                         <div className="col-md-12">
     
                             <div className="md-form">
-                                <textarea type="text" id="message" name="message" value={this.state.message} rows="2" className="form-control md-textarea" onChange={this.handleInputChangeNormal.bind(this)}></textarea>
+                                <textarea type="text" id="message" required name="message" value={this.state.message} rows="2" className="form-control md-textarea" onChange={this.handleInputChangeNormal.bind(this)}></textarea>
                                 <label htmlFor="message">Your message</label>
                             </div>
     
