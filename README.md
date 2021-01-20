@@ -24,7 +24,7 @@ Descargar la carpeta, en la terminal de la carpeta correr con npm install y lueg
 
 
 
-Ademas ya se encuentra desplegado en en la pagina https://patriciomirosh.github.io/login/ la pagina del Front pero sino se realizan los pasos uno y dos no puede acceder a la base de datos.
+Ademas ya se encuentra desplegado en la pagina https://patriciomirosh.github.io/login/ la pagina del Front pero sino se realizan los pasos uno y dos no puede acceder a la base de datos.
 el administrador que se encuentra en la pagina envia las request y accede a la ruta  localhost puerto 3050.
 
 
