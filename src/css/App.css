@@ -1,0 +1,264 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  margin: 2em;
+  background-image: url(../components/sample/fondo-blanco.gif);
+  background-repeat: repeat;
+  background-size: 100%,100%;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+label{
+  border-radius: 25%;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#navBar{
+  background-color:#D2D4DE;
+  
+}
+/* End main  */
+
+
+
+/* Modify the somes items */
+#List{
+  width:60%;
+  border-radius:5%;
+  background-color: #D2D4DE;
+  border-style: solid;
+  border-color: rgb(59, 109, 124);
+  font-family: 'Fira Sans', sans-serif;
+  
+
+}
+
+
+
+#ContainerLogList{
+  background-color:rgb(181, 230, 235)
+}
+#ActualBalance{
+  font-family: 'Fira Sans', sans-serif;
+  border-style: solid;
+  border-color: rgb(59, 109, 124);
+  background-color: #D2D4DE;
+  border-radius: 5%;
+}
+#Last10Selector{
+  margin-top: 1%;
+}
+.col-sm-1{
+  margin-left: 1%;
+ 
+}
+.col-sm{
+  
+  margin-top: 0.1em;
+}
+
+/* modify the header */
+.header {
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  background: #D2D4DE;
+  color: white;
+  text-align: center;
+
+  z-index: 100;
+  
+}
+.header a {
+  color: black;
+  text-decoration: none;
+ 
+}
+.logo-nav-containter {
+  width: 80%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+}
+/*Modiy the logo*/
+.LOGO {
+  margin-bottom: 43px;
+  margin-top: -37px;
+  width: 35%;
+  height: 120px;
+  z-index: 1;
+}
+.logo2 {
+  height: 120px;
+  background-image: url(../components/sample/icon1.png);
+}
+/*modify the logo and the navbar*/
+.navbar-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20em;
+  margin-bottom: 80px;
+  width: 60%;
+  height: 80px;
+  font-size: 16px;
+}
+/*menu list hidden in desktop version*/
+.dropdownMenu {
+  display: none;
+}
+/*access for the ul, il with <a> list*/
+.access ul {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+
+}
+
+.access ul li {
+  display: inline-block;
+  font-size: 0.7em;
+ 
+}
+.access ul li a {
+  display: block;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+.access ul li a:hover {
+  background: (123, 197, 240);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.container {
+  width: 85%;
+  max-width: 1800px;
+  margin: 0% auto;
+}
+@media only screen and (max-width: 768px) {
+  /*modify the nav bar */
+  .dropDownMenu {
+    display: flex;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    background-image: url(../components/sample/lineas.png);
+    background-size: contain;
+  }
+  /*Logo modificated position*/
+  .navbar-menu {
+    width: 55%;
+  }
+  /*Logo display position*/
+  .LOGO {
+    display: block;
+  }
+  /*access for the ul, il lists*/
+  .access {
+    background: #82A1B1;
+    margin-top: 15%;
+    width: 20%;
+    position: fixed;
+    right:  0;
+    z-index: 99999;
+    border-radius: 10%;
+  }
+  .access ul {
+    display: none;
+    width: 100%;
+  }
+  .access ul.show {
+    display: block;
+  }
+  .access ul li {
+    display: block;
+  }
+}
+
+/*main Images */
+
+#ResizeImp2{
+  width: auto;
+  height:60% ;
+}
+#ResizeTextOur{
+  width: auto;
+  height:60% ;
+  font-size:1.5vw;
+}
