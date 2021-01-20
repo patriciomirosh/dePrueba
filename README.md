@@ -1,5 +1,5 @@
 
-Pasos para correr el sistema.
+# Pasos para correr el sistema.
  
 # 1) Base de datos 
 En su servidor de base de datos locales Mysql crear la base de datos node20_mysql.
