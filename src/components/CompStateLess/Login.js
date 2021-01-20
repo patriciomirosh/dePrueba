@@ -141,7 +141,7 @@ const Login = (props) => {
             <input 
                 type="password" 
                 className="form-control mb-2"
-                placeholder="Ingrese Contraseña"
+                placeholder="Introduce your new password"
                 onChange={ e => changePass(e.target.value) }
                 value={pass}
             />

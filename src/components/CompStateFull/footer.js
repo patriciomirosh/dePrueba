@@ -12,7 +12,9 @@ export default class Footer extends Component {
 
         contactMe:true
         };
+
     }
+   
     onClick =()=>{
         if(this.state.contactMe===true ){this.setState({contactMe:false})}
         else{this.setState({contactMe:true})}

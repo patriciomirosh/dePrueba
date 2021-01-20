@@ -159,7 +159,7 @@ label{
 /*Modiy the logo*/
 .LOGO {
   margin-bottom: 43px;
-  margin-top: -37px;
+  margin-top: -20px;
   width: 35%;
   height: 120px;
   z-index: 1;
@@ -180,75 +180,11 @@ label{
   font-size: 16px;
 }
 /*menu list hidden in desktop version*/
-.dropdownMenu {
-  display: none;
-}
-/*access for the ul, il with <a> list*/
-.access ul {
-  margin: 0%;
-  padding: 0%;
-  list-style: none;
-
-}
-
-.access ul li {
-  display: inline-block;
-  font-size: 0.7em;
- 
-}
-.access ul li a {
-  display: block;
-  padding: 8px 16px;
-  border-radius: 10px;
-}
-.access ul li a:hover {
-  background: (123, 197, 240);
-  text-decoration: none;
+#OptionMenu{margin-top: -60px}
+#OptionMenu :hover{
   color: rgb(255, 255, 255);
-}
-.container {
-  width: 85%;
-  max-width: 1800px;
-  margin: 0% auto;
-}
-@media only screen and (max-width: 768px) {
-  /*modify the nav bar */
-  .dropDownMenu {
-    display: flex;
-    cursor: pointer;
-    height: 30px;
-    width: 30px;
-    background-image: url(../components/sample/lineas.png);
-    background-size: contain;
-  }
-  /*Logo modificated position*/
-  .navbar-menu {
-    width: 55%;
-  }
-  /*Logo display position*/
-  .LOGO {
-    display: block;
-  }
-  /*access for the ul, il lists*/
-  .access {
-    background: #82A1B1;
-    margin-top: 15%;
-    width: 20%;
-    position: fixed;
-    right:  0;
-    z-index: 99999;
-    border-radius: 10%;
-  }
-  .access ul {
-    display: none;
-    width: 100%;
-  }
-  .access ul.show {
-    display: block;
-  }
-  .access ul li {
-    display: block;
-  }
+
+  
 }
 
 /*main Images */

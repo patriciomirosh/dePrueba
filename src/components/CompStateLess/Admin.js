@@ -2,7 +2,7 @@ import React from 'react'
 import { withRouter } from "react-router-dom";
 import {auth} from '../../firebase'
 import {useUser} from '../../context/userContext'
-import Nav from '../CompStateFull/UserNavigator'
+import Nav from '../CompStateLess/UserNavigator'
 import Main from '../CompStateFull/main'
 import Last10 from '../CompStateFull/last10'
 import Formapp from '../CompStateFull/Formapp'
