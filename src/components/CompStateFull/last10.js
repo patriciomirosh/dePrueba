@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import React, { Component } from "react";
 import axios from 'axios'
-const api = axios.create({ baseURL: `http://localhost:3050` });
+const api = axios.create({ baseURL: `https://paton-nodejs-app.herokuapp.com/` });
 
 
 export default class Last10 extends Component {

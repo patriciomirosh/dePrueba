@@ -70,8 +70,8 @@ const Login = (props) => {
             const res = await auth.createUserWithEmailAndPassword(email, pass)
             console.log(res.user.uid)       
             await changeUsername(res.user.uid)
-            const urlUser = `http://localhost:3050/Table/create/${res.user.uid}`
-            const urlUser2 =`http://localhost:3050/Table/newUser/${res.user.uid}`
+            const urlUser = `https://paton-nodejs-app.herokuapp.com/Table/create/${res.user.uid}`
+            const urlUser2 =`https://paton-nodejs-app.herokuapp.com/Table/newUser/${res.user.uid}`
             
                await axios.post(urlUser)
                 // Tabla usuarios 
@@ -84,7 +84,7 @@ const Login = (props) => {
                     Password:pass
     
                     })   
-               await  axios.post(`http://localhost:3050/Table/newUser/`,{
+               await  axios.post(`https://paton-nodejs-app.herokuapp.com/Table/newUser/`,{
                 Username:res.user.uid,
                 Mail:email,
                 Password:pass})
