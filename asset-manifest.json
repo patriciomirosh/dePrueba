@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/dePrueba/static/css/main.0878a963.chunk.css",
+    "main.js": "/dePrueba/static/js/main.db8deabd.chunk.js",
+    "main.js.map": "/dePrueba/static/js/main.db8deabd.chunk.js.map",
+    "runtime-main.js": "/dePrueba/static/js/runtime-main.0caf5519.js",
+    "runtime-main.js.map": "/dePrueba/static/js/runtime-main.0caf5519.js.map",
+    "static/css/2.ae9f1eb3.chunk.css": "/dePrueba/static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.83b880c1.chunk.js": "/dePrueba/static/js/2.83b880c1.chunk.js",
+    "static/js/2.83b880c1.chunk.js.map": "/dePrueba/static/js/2.83b880c1.chunk.js.map",
+    "index.html": "/dePrueba/index.html",
+    "static/css/2.ae9f1eb3.chunk.css.map": "/dePrueba/static/css/2.ae9f1eb3.chunk.css.map",
+    "static/css/main.0878a963.chunk.css.map": "/dePrueba/static/css/main.0878a963.chunk.css.map",
+    "static/js/2.83b880c1.chunk.js.LICENSE.txt": "/dePrueba/static/js/2.83b880c1.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/dePrueba/static/media/icon1.f144806d.png",
+    "static/media/imp2.2cb76a20.png": "/dePrueba/static/media/imp2.2cb76a20.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0caf5519.js",
+    "static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.83b880c1.chunk.js",
+    "static/css/main.0878a963.chunk.css",
+    "static/js/main.db8deabd.chunk.js"
+  ]
+}
